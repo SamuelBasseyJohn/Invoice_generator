@@ -13,7 +13,7 @@ class DetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.teal,
         title: Text(invoice.name),
       ),
       body: Column(
